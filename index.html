@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bibin KB | IT Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #e5edf8;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 900px;
+      margin: auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    nav a { margin-left: 12px; color: #93c5fd; }
+    section { padding: 35px 0; }
+    h1 { font-size: clamp(36px, 7vw, 58px); line-height: 1.1; }
+    h2 { color: #93c5fd; }
+    p, li { color: #c0ccdf; }
+    .card {
+      background: #142036;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 16px 0;
+      border: 1px solid #26354d;
+    }
+    .button {
+      display: inline-block;
+      background: #60a5fa;
+      color: #07111f;
+      padding: 10px 16px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px 5px 5px 0;
+    }
+    footer { border-top: 1px solid #26354d; }
+    @media (max-width: 500px) {
+      nav a { margin-left: 0; margin-right: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Bibin KB</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>LINUX · CLOUD · IT INFRASTRUCTURE</p>
+      <h1>Hello, I'm Bibin KB.</h1>
+      <h2>Linux System Administrator</h2>
+      <p>
+        IT infrastructure professional interested in Linux,
+        cloud computing, automation, monitoring and DevOps.
+        I enjoy troubleshooting systems and building reliable
+        infrastructure.
+      </p>
+      <a class="button" href="#projects">My Projects</a>
+      <a class="button" href="resume.pdf">View Resume</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I have experience in IT support and system administration,
+          including server troubleshooting, user administration,
+          system monitoring and technical documentation.
+          I continue to develop my skills through practical labs
+          and infrastructure projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="card">
+        <strong>Linux:</strong> Oracle Linux, Ubuntu, Bash
+      </div>
+      <div class="card">
+        <strong>Cloud and Automation:</strong> AWS, Ansible, Terraform
+      </div>
+      <div class="card">
+        <strong>Containers and Virtualization:</strong>
+        Docker, Kubernetes, Proxmox, KVM
+      </div>
+      <div class="card">
+        <strong>Monitoring and Networking:</strong>
+        Prometheus, Grafana, Zabbix, TCP/IP, Nagios, Icinga2
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Server Monitoring</h3>
+        <p>
+          Monitoring server infrastructure with Prometheus,
+          Grafana, Alertmanager and exporters.
+        </p>
+        <a href="https://github.com/">My GitHub projects</a>
+      </div>
+      <div class="card">
+        <h3>Linux Automation</h3>
+        <p>
+          Automating routine administration tasks using Bash
+          and Ansible.
+        </p>
+        <a href="https://github.com/">My GitHub projects</a>
+      </div>
+      <div class="card">
+        <h3>Virtualization Home Lab</h3>
+        <p>
+          Learning virtual machines, Linux networking,
+          containers and infrastructure management.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>I'm interested in Linux, IT infrastructure and cloud roles.</p>
+      <a class="button" href="mailto:bibinkb444@gmail.com">
+        Email Me
+      </a>
+      <a class="button"
+         href="https://www.linkedin.com/in/bibin-kb-64181b160>
+        LinkedIn
+      </a>
+      <a class="button"
+         href="https://github.com/bibinkb1">
+        GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Bibin KB | Hosted free on GitHub Pages</p>
+  </footer>
+</body>
+</html>
